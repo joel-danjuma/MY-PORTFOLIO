@@ -19,10 +19,7 @@ const Projects = () => {
     });
   };
   return (
-    <section
-      id="project-section"
-      className=" lg:w-11/12 w-full h-[100vh] fixed "
-    >
+    <section id="project-section" className="w-full h-[100vh] fixed ">
       <h1 className="text-3xl lg:pt-2 pt-20 flex justify-center">Projects</h1>
       <div id="container" className="flex h-[100vh] items-center">
         <div id="projects-container" className="relative w-full">

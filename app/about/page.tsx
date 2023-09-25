@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="about-section"
-      className="lg:w-11/12 w-full h-screen z-0 relative overscroll-auto"
+      className="w-full h-screen z-0 relative overscroll-auto"
     >
       <div className="flex flex-col w-full lg:top-0 gap-4 absolute text-justify top-20 p-2 ">
         <h1 className="lg:text-5xl text-4xl w-full flex justify-center">

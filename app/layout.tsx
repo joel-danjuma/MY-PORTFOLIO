@@ -1,9 +1,10 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Nav from "@/components/nav";
 import { Abel } from "next/font/google";
+import { Providers } from "./providers";
 
 export const metadata = {
-  title: "JAD - My Portfolio Site",
+  title: "JAD - Portfolio Site",
   description: "Web developer",
 };
 
@@ -19,9 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` text-[#0f0f0f] ${abel.className}`}>
-        <Navbar />
-        <main>{children}</main>
+      <body className={` ${abel.className}`}>
+        <Providers>
+          <main>
+            <Nav />
+            {children}
+          </main>
+        </Providers>
       </body>
     </html>
   );
