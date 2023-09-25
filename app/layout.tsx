@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-white text-[#0f0f0f] ", $ abel.className}`}>
+      <body className={` text-[#0f0f0f] ${abel.className}`}>
         <Navbar />
         <main>{children}</main>
       </body>
