@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section
       id="hero-section"
-      className="w-full h-screen flex flex-col scrollbar top-[4rem]"
+      className="w-full h-screen flex flex-col scrollbar"
     >
       {/* <Nav /> */}
       <div className="w-full h-full lg:mt-2 mt-20 flex lg:justify-start justify-center lg:pr-3 lg:text-8xl text-5xl relative">
@@ -27,7 +27,7 @@ const Hero = () => {
         <motion.div
           className="h-full w-full lg:absolute lg:block hidden top-0 mask"
           animate={{
-            WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
+            WebkitMaskPosition: `${x - size / 2}px ${y - size / 1}px`,
             WebkitMaskSize: `${size}px`,
           }}
           transition={{ type: "tween", ease: "backOut" }}
